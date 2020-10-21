@@ -1,0 +1,65 @@
+/*universal selector*/
+
+/* {
+    
+
+}*/
+
+/* selector por clase */
+.content {
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    font-weight: 20px;
+    color: lightskyblue;
+}
+
+.section-content{
+    color: lightseagreen;
+}
+
+/*  selectores agrupados */
+
+.title, .title-section {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif ;
+    color: lightslategray;
+}
+
+
+/* selectores multiples*/
+
+.content.section-content{
+
+    color: lightsalmon;
+    font-size: 18px;
+    
+}
+/* selector por hijo directo*/
+
+.footer>.footer-text{
+    font-size: 18px;
+    color: limegreen;
+}
+
+/* selecror por atributo */ 
+ a[class] {
+     background-color: black;
+     color: whitesmoke;
+
+}
+
+/* selector por hermanos adyacente */
+
+.menu ~ li {
+    background-color: blue; 
+    color: white;
+
+}
+
+/* selector por hermano adyacente */
+.menu-2 + li {
+    background-color: blue; 
+    color: white;
+
+}

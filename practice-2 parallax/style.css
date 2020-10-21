@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Caveat', cursive;
+}
+
+.header__box{
+    width: 100%;
+    height: 100vh;
+    background: url('./public/pexels-bongkarn-thanyakij-3787572.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding-top: calc(50vh - 50px); /*  50% de la pantalla menos lo que la mitad del heigh*/
+}
+
+.header__box > h2 {
+    color: whitesmoke;
+    background: rgb(34, 34, 34);
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+    line-height: 100px; /*mismo qye el heigght para centrar */
+}
+.header__box2{
+    width: 100%;
+    text-align: center;
+    padding: 60px 40px;
+}
+
+.header__box2 > p {
+    padding: 40px  0;
+}

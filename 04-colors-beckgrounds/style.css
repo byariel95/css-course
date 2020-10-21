@@ -1,0 +1,42 @@
+*{
+    padding: none;
+    margin: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('images/E85j0k64l1F4m1F4.jpg');
+    background-repeat: repeat;
+}
+
+
+
+.section {
+    width: 400px;
+    color: rgba(158, 153, 238, 0.76);
+    background-color: rgb(21, 44, 63);
+    margin: auto;
+
+}
+
+.container{
+    /* el cover ajusta la imagen al width */
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    background-image: url('images/crop.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: indigo;
+}
+
+
+.buttom{
+    width: 150px;
+    margin: auto;
+    text-align: center;
+    background: linear-gradient(to left, rgb(0,116,255),rgb(92,185,244));
+    color: white;
+    border-radius: 25px;
+    padding: 8px;
+}
